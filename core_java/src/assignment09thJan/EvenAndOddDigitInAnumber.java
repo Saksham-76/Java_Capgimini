@@ -2,11 +2,11 @@ package assignment09thJan;
 
 public class EvenAndOddDigitInAnumber {
 	public static void main(String[] args) {
-		int n = 0054;// here is doubt to ask, it is cons
-		long a = 0054l;
+		int n = 54;
+//		long a = 0054l;
 		int countEven = 0;
 		int countOdd = 0;
-		System.out.println("value of n "+a);
+		System.out.println("value of n "+ n);
 		
 		while(n != 0) {
 			int currNumber = n % 10;
